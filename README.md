@@ -1,7 +1,19 @@
 # Final Project: Research and Develop a User Manual for OpenAI Playground
 
+## Timeline
+<table>
+  <thead>
+      <td style="text-align:left;">Assigned</td>
+      <td style="text-align:left;">Monday 9 Dec. 2024</td>
+  </thead>
+  <tfoot>
+      <td style="text-align:left; color: red;">Deadline</td>
+      <td style="text-align:left;">Thursday 12 Dec. 2024</td>
+  </tfoot>
+</table>
+
 ## Objective
-The objective of this final project is to research and document the functionalities of the OpenAI Playground. You will create a comprehensive user manual in either Markdown (.md) or HTML (.html), convert it to a static website using Jekyll, Gatsby, or another static site generator (SSG), and deploy the site using GitHub Pages or Netlify.
+The objective of this final project is to research and document the functionalities of the OpenAI Playground (https://platform.openai.com/playground/). You will create a comprehensive user manual in either Markdown (.md) or HTML (.html), convert it to a static website using Jekyll, Gatsby, or another static site generator (SSG), and deploy the site using GitHub Pages or Netlify.
 
 ## Deliverables
 1. **User Manual**: A detailed, well-structured user manual for the OpenAI Playground.
