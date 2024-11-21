@@ -13,99 +13,83 @@
 </table>
 
 ## Objective
-The objective of this final project is to research and document the functionalities of the OpenAI Playground (https://platform.openai.com/playground/). You will create a comprehensive user manual in either Markdown (.md) or HTML (.html), convert it to a static website using Jekyll, Gatsby, or another static site generator (SSG), and deploy the site using GitHub Pages or Netlify.
+The objective of this final project is to research and document the functionalities of the [OpenAI Playground](https://platform.openai.com/playground/). You will create a comprehensive user manual in both Markdown (.md) and HTML (.html), convert it to a static website using Jekyll, Gatsby, or another static site generator (SSG), and deploy the site using GitHub Pages or Netlify.
+
+## Instructions
+
+### Part 1: Create a Detailed User Manual (`index.html`)
+- In the `/writing` directory, create a well-structured `index.html` file for the OpenAI Playground. The manual should include:
+  - **Introduction**: Brief overview of the OpenAI Playground.
+  - **Overview of Features**: Highlight key features and capabilities.
+  - **Step-by-Step Guide**: Provide a detailed guide to using essential features.
+  - **Tips and Best Practices**: Share tips for effective usage.
+  - **Examples**: Include at least one example demonstrating the use of the OpenAI Playground.
+  - **Frequently Asked Questions (FAQ)**: Address common questions.
+
+### Part 2: Create a Markdown Manual (`final.md`)
+- In the `/writing` directory, create one `final.md` file that serves as a user manual for the OpenAI Playground.
+- The Markdown manual should reflect the same content as the `index.html`.
+
+### Part 3: Convert the Manual into a Static Website
+- Use Jekyll, Gatsby, or another Static Site Generator (SSG) of your choice to convert the manual into a static website. 
+- Include the following:
+  - **Homepage**: A brief introduction with navigation links.
+  - **Dedicated Pages**: Create separate pages for each section of the user manual based on the content of `final.md` in `/writing`.
+
+### Part 4: Deploy the Static Website
+- Deploy the final static site using GitHub Pages or Netlify.
+- Ensure the site is publicly accessible.
+- Replace the marker below with the URL of the deployed site.
+
+**TODO: [Insert Deployed Site URL Here]**
+
+### Notes
+- **Naming**: Ensure the HTML file is named exactly `index.html` and Markdown file is named exactly `final.md`.
+- **HTML Structure**: Use appropriate HTML tags to structure the document, including:
+  - **Header Tags**: Use `<h1>`, `<h2>`, etc., for headings.
+  - **Text Formatting**: Use `<b>` for bold, `<i>` for italic, etc.
+  - **Tables**: Use `<table>`, `<tr>`, `<td>`, `<th>`, etc., for tabular data.
+  - **Lists**: Use `<ol>`, `<ul>`, and `<li>` for ordered and unordered lists.
+  - **Links**: Use `<a href="">` to include hyperlinks.
+  - **Images**: Use `<img>` to add images.
 
 ## Deliverables
-1. **User Manual**: A detailed, well-structured user manual for the OpenAI Playground.
-    - Format: Markdown (.md) or HTML (.html)
-    - Must include:
-        - Introduction to the OpenAI Playground
-        - Overview of features and capabilities
-        - Step-by-step guide to using key features
-        - Tips and best practices for effective usage
-        - Example use cases with screenshots or code snippets
-        - Frequently Asked Questions (FAQ) section
-2. **Static Website**:
-    - Converted the manual into a static site using Jekyll, Gatsby, or another SSG of your choice.
-    - Include at least:
-        - A homepage with a brief introduction and navigation links
-        - Dedicated pages for each section of the user manual
-    - Use CSS for a clean and readable design.
-3. **Deployed Website**:
-    - The final static site deployed using either GitHub Pages or Netlify.
-    - Ensure the site is publicly accessible.
+Please submit your work by pushing it to your GitHub Classroom repository.
+- Ensure the `/writing` directory contains:
+  - One `index.html` file.
+  - One `final.md` file reflecting the content of the user manual.
+- Modify the `README.md` file to include:
+  - The URL of your deployed site, either on GitHub Pages or Netlify.
 
-## Requirements
-### Content
-- **Introduction**: Describe the OpenAI Playground, including its purpose and importance.
-- **Features**: Provide detailed explanations of its major features (e.g., model selection, input/output configuration, API exploration).
-- **Instructions**: Step-by-step guides with screenshots or visuals.
-- **Examples**: Include sample prompts and responses.
-- **Design**: Ensure clarity, consistency, and accessibility.
+## Project Assessment
 
-### Technical
-1. **File Structure**:
-    - Organize your project files in a clean structure, following the conventions of your chosen SSG.
-    - Example (Jekyll):
-      ```
-      .
-      ├── _config.yml
-      ├── _posts/
-      ├── _layouts/
-      ├── index.md
-      ├── assets/
-      └── _site/
-      ```
-    - Example (Gatsby):
-      ```
-      .
-      ├── src/
-      ├── gatsby-config.js
-      ├── static/
-      ├── content/
-      └── public/
-      ```
-2. **Version Control**:
-    - Use Git for version control.
-    - Push your code to a GitHub repository.
-3. **Deployment**:
-    - Deploy using GitHub Pages or Netlify.
-    - Include deployment instructions in your repository’s README.md.
+Your project will be evaluated based on the following criteria:
 
-## Milestones
-1. **Week 1: Research**
-    - Explore the OpenAI Playground and document its features.
-    - Draft the outline of your user manual.
-2. **Week 2: Draft Manual**
-    - Create the first draft of the manual in Markdown or HTML.
-    - Review and refine the content.
-3. **Week 3: Convert to Static Site**
-    - Set up Jekyll, Gatsby, or another SSG.
-    - Convert the manual into a structured static site.
-4. **Week 4: Deploy and Submit**
-    - Deploy your site using GitHub Pages or Netlify.
-    - Submit the GitHub repository link and the deployed site link.
+### 1. Completion of Project Components (60%)
+- **Criteria**: Completing the 4 main parts of the project as outlined in the instructions.
+- **Base Score**: Projects that generally complete all 4 parts will receive the full 50% in this category.
+  - Part 1: Creating `index.html` with required sections.
+  - Part 2: Creating `final.md` file as a user manual.
+  - Part 3: Converting the manual into a static website.
+  - Part 4: Deploying the static website successfully.
 
-## Submission Guidelines
-1. **GitHub Repository**:
-    - Your repository should include:
-        - Source files (.md or .html, along with any CSS/JS files).
-        - Static site files generated by the SSG.
-        - README.md with clear instructions on how to run and deploy the site.
-2. **Deployed Website**:
-    - Submit the live link to your deployed website.
-3. **Final Submission**:
-    - Submit your GitHub repository and deployed site links via [submission method, e.g., LMS or email].
+### 2. Achieve GatorGrader Compliance (10%)
+- **Criteria**: Successfully meeting the criteria set by GatorGrader.
 
-## Grading Rubric
-| Criteria                        | Points |
-|--------------------------------|--------|
-| Research and Content Quality   | 30     |
-| User Manual Structure          | 20     |
-| Static Website Implementation  | 20     |
-| Deployment                     | 20     |
-| Design and Accessibility       | 10     |
-| **Total**                      | **100**|
+### 3. Quality of Work (30%)
+- **Criteria**: Assessed based on the overall quality and attention to detail in the following areas:
+  - **Content Quality**: Clarity, completeness, and coherence of the user manual.
+  - **HTML and Markdown Structure**: Proper use of HTML and Markdown syntax.
+  - **Static Website Design**: Aesthetics, navigation, and adherence to the required layout.
+  - **Deployment**: Functionality of the deployed website (links, images, responsiveness, etc.).
+
+### Grading Breakdown
+| Category                        | Weight   |
+|---------------------------------|----------|
+| Completion of Project Components | 60%      |
+| GatorGrader Compliance           | 10%     |
+| Quality of Work                  | 30%      |
+| **Total**                        | 100%     |
 
 ## Resources
 - **OpenAI Playground**: [OpenAI Playground](https://platform.openai.com/playground/chat?models=gpt-3.5-turbo)
@@ -115,8 +99,6 @@ The objective of this final project is to research and document the functionalit
 - **GitHub Pages Guide**: [GitHub Pages](https://pages.github.com/)
 - **Netlify Documentation**: [Netlify](https://docs.netlify.com/)
 
-## Notes
+## Tips
 - Be creative and ensure your user manual stands out.
-- Collaborate with peers for feedback, but your submission must be your original work.
 - Ask questions or seek help during office hours or on our course discussion platform.
-
