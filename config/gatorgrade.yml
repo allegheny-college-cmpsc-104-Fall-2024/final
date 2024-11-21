@@ -75,6 +75,34 @@ thresholds:
           degree:
             - SE: "I"
               rationale: ""
+    - description: <ul> remain in the README.md files
+      check: MatchFileFragment
+      options:
+        fragment: "<ul>"
+        count: 1
+        exact: true
+      objectives:
+        CLO2:
+          degree:
+            - SE: "I"
+              rationale: ""
+        CLO4:
+          degree:
+            - SE: "I"
+              rationale: ""
+
+- writing/final.md:
+    - description: Ensure that a final.md files exist
+      check: ConfirmFileExists
+      objectives:
+        CLO2:
+          degree:
+            - SE: "I"
+              rationale: ""
+        CLO4:
+          degree:
+            - SE: "I"
+              rationale: ""
 
 # count number of commits in the GitHub repository
 - description: Have at least 3 of commits in repository
