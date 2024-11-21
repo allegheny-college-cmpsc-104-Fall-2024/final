@@ -32,7 +32,7 @@ thresholds:
         CLO2:
           degree:
             - SE: "I"
-              rationale: ""
+              rationale: "PO2. pass demonstrates competency in the theories, models, and practices of project domains that require the engineering of software."
         CLO3:
           degree:
             - SE: "I"
