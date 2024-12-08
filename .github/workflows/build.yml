@@ -51,13 +51,12 @@ jobs:
           run: |
             pip install -U pip
             python -m pip install --user pipx
-        # Run GatorGrader: use the gatorgrade.yml in repository's root
+        # Run GatorGrader: see config/gatorgrade.yml
         - name: Run GatorGrader with GatorGrade
           if: always()
           run:  |
-           pipx install gatorgrade
-           pipx list
-           gatorgrade --report env md GITHUB_STEP_SUMMARY
+            pip install gatorgrade
+            gatorgrade --config config/gatorgrade.yml --report env md GITHUB_STEP_SUMMARY
         # Get the current time
         - name: Get the Current Time
           uses: josStorer/get-current-time@v2
