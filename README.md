@@ -67,7 +67,7 @@ Your project will be evaluated based on the following criteria:
 
 ### 1. Completion of Project Components (60%)
 - **Criteria**: Completing the 4 main parts of the project as outlined in the instructions.
-- **Base Score**: Projects that generally complete all 4 parts will receive the full 50% in this category.
+- **Base Score**: Projects that generally complete all 4 parts will receive the full 60% in this category.
   - Part 1: Creating `index.html` with required sections.
   - Part 2: Creating `final.md` file as a user manual.
   - Part 3: Converting the manual into a static website.
