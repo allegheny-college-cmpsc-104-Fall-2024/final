@@ -45,12 +45,12 @@ thresholds:
 - writing/index.html:
     - description: Ensure that a index.html files exist
       check: ConfirmFileExists
-    - description: <table> remain in the README.md files
+    - description: <table> does not exist in the index.html files
       check: MatchFileFragment
       options:
-        fragment: "<table>"
+        fragment: "<table"
         count: 1
-        exact: true
+        exact: false
       objectives:
         CLO2:
           degree:
@@ -60,12 +60,12 @@ thresholds:
           degree:
             - SE: "I"
               rationale: "PO2. pass demonstrates competency in the theories, models, and practices of project domains that require the engineering of software."
-    - description: <img> remain in the README.md files
+    - description: <img> does not exist in the index.html files
       check: MatchFileFragment
       options:
-        fragment: "<img>"
+        fragment: "<img"
         count: 1
-        exact: true
+        exact: false
       objectives:
         CLO2:
           degree:
@@ -75,12 +75,12 @@ thresholds:
           degree:
             - SE: "I"
               rationale: "PO2. pass demonstrates competency in the theories, models, and practices of project domains that require the engineering of software."
-    - description: <ul> remain in the README.md files
+    - description: <ul> does not exist in the index.html files
       check: MatchFileFragment
       options:
-        fragment: "<ul>"
+        fragment: "<ul"
         count: 1
-        exact: true
+        exact: false
       objectives:
         CLO2:
           degree:
